@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 🌙 Gym SaaS Theme */
+
+body {
+  @apply bg-slate-900 text-white;
+  font-family: 'Inter', sans-serif;
+}
+
+/* Sidebar */
+.sidebar {
+  @apply bg-slate-800 text-white;
+}
+
+/* Cards */
+.card {
+  @apply bg-slate-800 p-4 rounded-xl shadow-md;
+}
+
+/* Buttons */
+.btn-primary {
+  @apply bg-indigo-600 px-4 py-2 rounded-lg hover:bg-indigo-700;
+}
