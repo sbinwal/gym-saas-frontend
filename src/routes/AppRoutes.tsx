@@ -3,11 +3,12 @@ import Layout from "../components/layout/Layout";
 import Dashboard from "../pages/dashboard/Dashboard";
 import Members from "../pages/members/Members";
 import Plans from "../pages/plans/Plans";
-import Payments from "../pages/payments/Dues";
+
 import { LoginPage } from "../pages/auth/Login";
 import { SignupPage } from "../pages/auth/Register";
 import AuthLayout from "../components/layout/AuthLayout";
 import PrivateRoute from "./PrivateRoutes";
+import Payments from "../pages/payments/Payments";
 
 const AppRoutes = () => {
   return (

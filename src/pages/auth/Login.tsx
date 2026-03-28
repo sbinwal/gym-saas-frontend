@@ -18,8 +18,8 @@ export const LoginPage = () => {
       setLoading(true);
       setError("");
       const payload = {
-        email: "iron@gym.com",
-        password: "123456"
+        email: email,
+        password: password
       }
 
       const data = await loginUser(payload);
